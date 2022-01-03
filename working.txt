@@ -1,0 +1,18 @@
+// how to run project on browser 
+---------------------------------
+go to terminal or cmd and run thie cmd =>npm start
+----------------*********************-----------------------
+how to json server create or own server to get data
+go to first jsonplaceholder site and get users data link and copy all json data 
+go to project folder and create file db.json on root directory
+like example:
+************
+{
+    "users":paste data fron jsonplaceholder
+            -------------------------------
+} 
+
+******************
+save the file and go to packege.json file 
+and add "json server" on script object like exmp:
+

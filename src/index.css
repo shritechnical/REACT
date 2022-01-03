@@ -1,0 +1,13 @@
+.App>.not-fount{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(231, 137, 29, 0.541) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    padding-left: 20px !important;
+}
