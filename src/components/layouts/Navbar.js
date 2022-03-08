@@ -2,6 +2,9 @@ import React from 'react';
 import { Link , NavLink} from 'react-router-dom';
 import AddUser from '../pages/AddUsers';
 
+import Cartview from '../Cartview';
+
+
 const Navbar = () =>{
 
     return(
@@ -16,7 +19,7 @@ const Navbar = () =>{
     <ul className="navbar-nav mr-auto">
       <li className="nav-item ">
         {/* For active link to use exact */}
-        <NavLink className="nav-link" exact to="/">Home </NavLink>
+        <NavLink className="nav-link" exact to="/">User List </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" exact to="/about">About</NavLink>
@@ -24,7 +27,18 @@ const Navbar = () =>{
       <li className="nav-item">
         <NavLink className="nav-link" exact to="/contact">Contact</NavLink>
       </li>
-   
+      <li className="nav-item">
+        <NavLink className="nav-link" exact to="/Frontview/Show">Cart</NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" exact to="/uploaddocument">Upload Document</NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" exact to="/Restaurant/Add">Restaurant Create</NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" exact to="/Restaurant/List">Restaurant List</NavLink>
+      </li>
     </ul>
    <Link className="btn btn-outline-light" exact to='/AddUsers/Add'>Add User</Link>
   </div>
